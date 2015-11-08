@@ -1,0 +1,45 @@
+name: camden bickel
+description: who, me?
+meta_description: "camdenbickel.com"
+
+aboutPage: true
+
+markdown: redcarpet
+redcarpet:
+    extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
+highlighter: pygments
+
+
+paginate: 20
+baseurl: /
+domain_name: 'camdenbickel.com'
+google_analytics: 'UA-XXXXXXXX-X'
+disqus: false
+disqus_shortname: 'your-disqus-shortname'
+
+# Details for the RSS feed generator
+url:            'camdenbickel.com'
+author:         'camden bickel'
+authorTwitter:  'bearchinski'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
