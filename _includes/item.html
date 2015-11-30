@@ -1,7 +1,7 @@
 <div class="one-third column item">
-	<img src="http://placehold.it/300x200" alt="{{ post.title }}" class="item-img">
+	<a target="_blank" href={{ post.link }}><img src="{{ site.baseurl }}assets/images/{{ post.image }}" alt="{{ post.title }}" class="item-img"></a>
 	<div class="info">
-		<p class='post-title serif-font'>{{ post.title }}</p>
+		<a target="_blank" href={{ post.link }}><p class='post-title serif-font'>{{ post.title }}</p></a>
 		<p class='post-tools serif-font'>{{ post.tools }}</p>
 	</div>
 </div>

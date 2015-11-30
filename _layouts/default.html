@@ -11,35 +11,11 @@
 	<link rel="stylesheet" href="{{ site.baseurl }}assets/css/skeleton.css">
 	<link rel="stylesheet" href="{{ site.baseurl }}assets/css/skeleton.css">
 	<link rel="stylesheet" href="{{ site.baseurl }}assets/css/main.css">
-	<link rel="alternate" type="application/rss+xml" title="My Blog" href="{{ site.baseurl }}rss.xml">
-	<link rel="stylesheet" href="{{ site.baseurl }}assets/css/highlight.css">
 </head>
 <body>
 
-	
-	
-	<div class="container">
-	{% include navigation.html %}
-	<hr>
-	{% include portfolio-list.html %}
-	<hr>
-	{% include footer.html %}
-	</div>
+{{ content }}
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src="{{ site.baseurl }}assets/js/main.js"></script>
-	<script src="{{ site.baseurl }}assets/js/highlight.js"></script>
-	<script>hljs.initHighlightingOnLoad();</script>
-
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		ga('create', '{{ site.google_analytics }}', 'auto');
-		ga('send', 'pageview');
-	</script>
 </body>
 </html>
 

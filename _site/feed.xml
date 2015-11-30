@@ -7,6 +7,28 @@
     <atom:link href="camdenbickel.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Battle for Dvorak</title>
+        
+        
+          <description></description>
+        
+        <pubDate>Mon, 12 Oct 2015 00:00:00 -0400</pubDate>
+        <link>camdenbickel.com/2015/battle-for-dvorak/</link>
+        <guid isPermaLink="true">camdenbickel.com/2015/battle-for-dvorak/</guid>
+      </item>
+    
+      <item>
+        <title>Typong</title>
+        
+        
+          <description></description>
+        
+        <pubDate>Sun, 11 Oct 2015 00:00:00 -0400</pubDate>
+        <link>camdenbickel.com/2015/typong/</link>
+        <guid isPermaLink="true">camdenbickel.com/2015/typong/</guid>
+      </item>
+    
+      <item>
         <title>Tiny D20</title>
         
         
@@ -18,58 +40,47 @@
       </item>
     
       <item>
-        <title>Tinyd20 copy</title>
+        <title>camdenbickel.com</title>
         
         
           <description></description>
         
         <pubDate>Sun, 11 Oct 2015 00:00:00 -0400</pubDate>
-        <link>camdenbickel.com/2015/tinyd20-copy/</link>
-        <guid isPermaLink="true">camdenbickel.com/2015/tinyd20-copy/</guid>
+        <link>camdenbickel.com/2015/this-website/</link>
+        <guid isPermaLink="true">camdenbickel.com/2015/this-website/</guid>
       </item>
     
       <item>
-        <title>Tinyd20 copy 5</title>
+        <title>Pixel Party</title>
         
         
           <description></description>
         
         <pubDate>Sun, 11 Oct 2015 00:00:00 -0400</pubDate>
-        <link>camdenbickel.com/2015/tinyd20-copy-5/</link>
-        <guid isPermaLink="true">camdenbickel.com/2015/tinyd20-copy-5/</guid>
+        <link>camdenbickel.com/2015/pixel-party/</link>
+        <guid isPermaLink="true">camdenbickel.com/2015/pixel-party/</guid>
       </item>
     
       <item>
-        <title>Tinyd20 copy 4</title>
+        <title>Menubar D20</title>
         
         
           <description></description>
         
         <pubDate>Sun, 11 Oct 2015 00:00:00 -0400</pubDate>
-        <link>camdenbickel.com/2015/tinyd20-copy-4/</link>
-        <guid isPermaLink="true">camdenbickel.com/2015/tinyd20-copy-4/</guid>
+        <link>camdenbickel.com/2015/menubar-d20/</link>
+        <guid isPermaLink="true">camdenbickel.com/2015/menubar-d20/</guid>
       </item>
     
       <item>
-        <title>Tinyd20 copy 3</title>
+        <title>D&amp;D Map Creator</title>
         
         
           <description></description>
         
         <pubDate>Sun, 11 Oct 2015 00:00:00 -0400</pubDate>
-        <link>camdenbickel.com/2015/tinyd20-copy-3/</link>
-        <guid isPermaLink="true">camdenbickel.com/2015/tinyd20-copy-3/</guid>
-      </item>
-    
-      <item>
-        <title>Tinyd20 copy 2</title>
-        
-        
-          <description></description>
-        
-        <pubDate>Sun, 11 Oct 2015 00:00:00 -0400</pubDate>
-        <link>camdenbickel.com/2015/tinyd20-copy-2/</link>
-        <guid isPermaLink="true">camdenbickel.com/2015/tinyd20-copy-2/</guid>
+        <link>camdenbickel.com/2015/dnd-mapper/</link>
+        <guid isPermaLink="true">camdenbickel.com/2015/dnd-mapper/</guid>
       </item>
     
   </channel>
