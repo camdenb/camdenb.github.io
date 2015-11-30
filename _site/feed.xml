@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>camden bickel</title>
+    <title>Camden Bickel</title>
     <description>who, me?</description>
     <link>camdenbickel.com</link>
     <atom:link href="camdenbickel.com/feed.xml" rel="self" type="application/rss+xml" />
@@ -13,8 +13,8 @@
           <description></description>
         
         <pubDate>Mon, 12 Oct 2015 00:00:00 -0400</pubDate>
-        <link>camdenbickel.com/2015/battle-for-dvorak/</link>
-        <guid isPermaLink="true">camdenbickel.com/2015/battle-for-dvorak/</guid>
+        <link>camdenbickel.com/battle-for-dvorak/</link>
+        <guid isPermaLink="true">camdenbickel.com/battle-for-dvorak/</guid>
       </item>
     
       <item>
@@ -24,8 +24,8 @@
           <description></description>
         
         <pubDate>Sun, 11 Oct 2015 00:00:00 -0400</pubDate>
-        <link>camdenbickel.com/2015/typong/</link>
-        <guid isPermaLink="true">camdenbickel.com/2015/typong/</guid>
+        <link>camdenbickel.com/typong/</link>
+        <guid isPermaLink="true">camdenbickel.com/typong/</guid>
       </item>
     
       <item>
@@ -35,8 +35,8 @@
           <description></description>
         
         <pubDate>Sun, 11 Oct 2015 00:00:00 -0400</pubDate>
-        <link>camdenbickel.com/2015/tinyd20/</link>
-        <guid isPermaLink="true">camdenbickel.com/2015/tinyd20/</guid>
+        <link>camdenbickel.com/tinyd20/</link>
+        <guid isPermaLink="true">camdenbickel.com/tinyd20/</guid>
       </item>
     
       <item>
@@ -46,8 +46,8 @@
           <description></description>
         
         <pubDate>Sun, 11 Oct 2015 00:00:00 -0400</pubDate>
-        <link>camdenbickel.com/2015/this-website/</link>
-        <guid isPermaLink="true">camdenbickel.com/2015/this-website/</guid>
+        <link>camdenbickel.com/this-website/</link>
+        <guid isPermaLink="true">camdenbickel.com/this-website/</guid>
       </item>
     
       <item>
@@ -57,8 +57,8 @@
           <description></description>
         
         <pubDate>Sun, 11 Oct 2015 00:00:00 -0400</pubDate>
-        <link>camdenbickel.com/2015/pixel-party/</link>
-        <guid isPermaLink="true">camdenbickel.com/2015/pixel-party/</guid>
+        <link>camdenbickel.com/pixel-party/</link>
+        <guid isPermaLink="true">camdenbickel.com/pixel-party/</guid>
       </item>
     
       <item>
@@ -68,8 +68,8 @@
           <description></description>
         
         <pubDate>Sun, 11 Oct 2015 00:00:00 -0400</pubDate>
-        <link>camdenbickel.com/2015/menubar-d20/</link>
-        <guid isPermaLink="true">camdenbickel.com/2015/menubar-d20/</guid>
+        <link>camdenbickel.com/menubar-d20/</link>
+        <guid isPermaLink="true">camdenbickel.com/menubar-d20/</guid>
       </item>
     
       <item>
@@ -79,8 +79,8 @@
           <description></description>
         
         <pubDate>Sun, 11 Oct 2015 00:00:00 -0400</pubDate>
-        <link>camdenbickel.com/2015/dnd-mapper/</link>
-        <guid isPermaLink="true">camdenbickel.com/2015/dnd-mapper/</guid>
+        <link>camdenbickel.com/dnd-mapper/</link>
+        <guid isPermaLink="true">camdenbickel.com/dnd-mapper/</guid>
       </item>
     
   </channel>

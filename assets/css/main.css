@@ -18,7 +18,10 @@ a {
 a:hover,
 a:focus {
 	color: #73A0F3;
-	
+}
+
+.active-link a {
+	color: #3E5BB4;
 }
 
 /****

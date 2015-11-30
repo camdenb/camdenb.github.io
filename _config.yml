@@ -1,4 +1,4 @@
-name: camden bickel
+name: Camden Bickel
 description: who, me?
 meta_description: "camdenbickel.com"
 
@@ -19,10 +19,10 @@ disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
 url:            'camdenbickel.com'
-author:         'camden bickel'
+author:         'Camden Bickel'
 authorTwitter:  'bearchinski'
 
-permalink:       /:year/:title/
+permalink:       /:title/
 
 defaults:
     -
