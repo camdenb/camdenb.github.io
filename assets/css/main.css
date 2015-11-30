@@ -1,4 +1,148 @@
-.profile-about {
-	max-width: 20rem;
-	margin: 2rem auto 0;
+body {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #333;
 }
+
+/****
+Projects
+****/
+
+.item {
+	margin-bottom: 5.75rem;
+	text-align: left;
+}
+
+.item-img {
+	width: 100%;
+}
+
+.post-title {
+
+	line-height: 1em;
+	font-weight: bold;
+	margin: 0 0 0 0.75rem;
+}
+
+.post-tools {
+	font-style: oblique;
+	margin: 0 0 0 0.75rem;
+}
+
+.serif-font {
+	font-family: 'Bitter', serif;
+}
+
+hr {
+	margin: 0 0 2rem 0;
+}
+
+/****
+Navigation
+****/
+
+.main-nav {
+	text-align: center;
+}
+
+.title {
+	margin-bottom: 0;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 2rem;
+	font-size: 10vw;
+}
+
+.nav-links {
+	list-style-type: none;
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+.nav-item {
+	display: inline-block;
+	font-size: 1.25rem;
+	font-size: 3.33vw;
+}
+
+.nav-links li {
+	margin-right: 3rem;
+}
+
+.nav-item:last-child {
+	margin-right: 0;
+}
+
+@media (min-width: 550px) {
+
+	.main-nav {
+		text-align: left;
+	}
+
+	.title {
+		font-size: 4.5rem;
+		margin-right: 2rem;
+	}
+
+	.nav-item {
+		display: inline-block;
+		font-size: 2rem;
+		margin-right: 1.5rem;
+	}
+	
+}
+
+@media (min-width: 840px) {
+
+	.title {
+		display: inline;
+		font-size: 4rem;
+		margin-right: 5rem;
+	}
+
+	.nav-item {
+		margin-right: 3rem;
+	}
+	
+	.nav-links {
+		display: inline;
+	}
+
+}
+
+/* credit: http://tympanus.net/codrops/2013/08/06/creative-link-effects/ */
+/* Effect 3: bottom line slides/fades in */
+.nav-links a {
+	padding: 2px 0;
+	position: relative;
+	display: inline-block;
+	outline: none;
+	color: #333;
+	text-decoration: none;
+}
+
+.nav-links a::after {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	background: rgba(0,0,0,0.1);
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(10px);
+	-moz-transform: translateY(10px);
+	transform: translateY(10px);
+}
+
+.nav-links a:hover::after,
+.nav-links a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+}
+
+
