@@ -1,7 +1,7 @@
 {% for post in site.posts %}
 {% assign loopindex = forloop.index | modulo: 3 %}
 {% if loopindex == 1 %}
-<div class="row">
+<div class="row portfolio">
 	{% include item.html %}
 	{% elsif loopindex == 2 %}
 	{% include item.html %}

@@ -7,7 +7,7 @@
 
 	<title>{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}</title>
 	<link rel="shortcut icon" href="{{ site.baseurl }}assets/images/favicon.ico">
-	<link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic|Open+Sans:400,800' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Bitter:400,700,400italic|Open+Sans:400,800' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="{{ site.baseurl }}assets/css/skeleton.css">
 	<link rel="stylesheet" href="{{ site.baseurl }}assets/css/skeleton.css">
 	<link rel="stylesheet" href="{{ site.baseurl }}assets/css/main.css">
@@ -22,6 +22,8 @@
 	{% include navigation.html %}
 	<hr>
 	{% include portfolio-list.html %}
+	<hr>
+	{% include footer.html %}
 	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
