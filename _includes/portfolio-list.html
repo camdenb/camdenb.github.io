@@ -1,12 +1,12 @@
 {% for post in site.posts %}
-	{% assign loopindex = forloop.index | modulo: 3 %}
-	{% if loopindex == 1 %}
-		<div class="row">
-			{% include item.html %}
+{% assign loopindex = forloop.index | modulo: 3 %}
+{% if loopindex == 1 %}
+<div class="row">
+	{% include item.html %}
 	{% elsif loopindex == 2 %}
-			{% include item.html %}
+	{% include item.html %}
 	{% else %}
-			{% include item.html %}
-		</div>
-	{% endif %}
+	{% include item.html %}
+</div>
+{% endif %}
 {% endfor %}
