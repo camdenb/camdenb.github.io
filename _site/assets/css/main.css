@@ -1,3 +1,8 @@
+/****
+General
+****/
+
+
 body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	color: #333;
@@ -8,27 +13,13 @@ body {
 }
 
 a {
-	color: #333;
 	text-decoration: none;
-	-moz-transition: color .15s ease-in;
-    -o-transition: color .15s ease-in;
-    -webkit-transition: color .15s ease-in;
-    transition: color .15s ease-in;
-    border-bottom: dotted;
 }
 
 .nav-item > a, .info-wrapper-link {
 	border-bottom: none;
 }
 
-a:hover,
-a:focus {
-	color: #73A0F3;
-}
-
-.active-link a {
-	color: #3E5BB4;
-}
 
 /****
 About Me
@@ -40,21 +31,19 @@ About Me
 }
 
 .about-text {
-	margin-top: 7rem;
-	font-size: 2vh;
-	text-align: justify;
+	margin-top: 5rem;
+	font-size: 1.75rem;
+	text-align: left;
 }
 
 .contact-text {
 	margin-top: 7rem;
-	font-size: 2vh;
+	font-size: 2rem;
 	text-align: center;
 }
 
 .image-of-me {
-	/*width: 100%;*/
-	/*margin: 4rem auto;*/
-	/*margin-top: 4rem;*/
+	margin-top: 4rem;
 	height: 100%;
 	width: 100%;
 }
@@ -68,21 +57,17 @@ About Me
 Navigation
 ****/
 
-.main-nav {
-	height: inherit;
-}
-
 .nav-wrapper {
-	background-color: #f5ba32; // ###COLOR
+	background-color: #fff; // this gets overridden below
 	height: 16rem;
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
 }
 
 .title {
 	margin-bottom: 0;
 	display: inline-block;
 	font-weight: bold;
-	font-size: 4.5rem;
-	font-size: 4vw;
+	font-size: 6rem;
 	margin-top: 4rem;
 	text-align: center;
 	width: 100%;
@@ -94,70 +79,27 @@ Navigation
 	font-weight: bolder;
 	text-align: center;
 	margin-bottom: 1rem;
-	margin-top: 3rem;
-	padding-bottom: 0;
-}
-
-@media (min-width: 550px) {
-
-	/*.main-nav {
-		text-align: left;
-	}
-
-	.title {
-		font-size: 4.5rem;
-		margin-right: 2rem;
-	}
-
-	.nav-item {
-		display: inline-block;
-		font-size: 2rem;
-	}*/
-	
-}
-
-
-/* credit: http://tympanus.net/codrops/2013/08/06/creative-link-effects/ */
-/* Effect 3: bottom line slides/fades in */
-.nav-links a {
-	padding: 2px 0;
+	margin-top: 1rem;	
+	height: inherit;
+	padding: 2rem 0;
 	position: relative;
-	display: inline-block;
-	outline: none;
+	top: 0.95rem;
+	-moz-transition: all .25s ease-in;
+    -o-transition: all .25s ease-in;
+    -webkit-transition: all .25s ease-in;
+    transition: all .25s ease-in;
 }
 
-.nav-links a::after {
-	position: absolute;
-	top: 100%;
-	left: 0;
-	width: 100%;
-	height: 4px;
-	background: rgba(0,0,0,0.1);
-	content: '';
-	opacity: 0;
-	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
-	transition: opacity 0.3s, transform 0.3s;
-	-webkit-transform: translateY(10px);
-	-moz-transform: translateY(10px);
-	transform: translateY(10px);
-}
-
-.nav-links a:hover::after,
-.nav-links a:focus::after {
-	opacity: 1;
-	-webkit-transform: translateY(0px);
-	-moz-transform: translateY(0px);
-	transform: translateY(0px);
+.nav-link:focus > .nav-item,
+.nav-link:hover > .nav-item {
+	transform: scale(1.05);
+	z-index: 4;
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
 }
 
 /****
 Projects
 ****/
-
-.portfolio-container {
-
-}
 
 .portfolio {
 	margin: 3.5rem 0;
@@ -167,6 +109,7 @@ Projects
 	margin-bottom: 0rem;
 	height: 250px;
 	background: 50% 50% no-repeat;
+	background-size: cover;
 	display: table;
 	-webkit-transition: all 350ms ease-out;
     -moz-transition: all 350ms ease-out;
@@ -179,12 +122,14 @@ Projects
 	vertical-align: middle;
 }
 
-.info-wrapper-link:hover > .info {
+.info-wrapper-link:hover > .info,
+.info-wrapper-link:focus > .info {
 	transform: scale(1.03);
 	opacity: 1;
 }
 
-.item:hover {
+.item:hover,
+.item:focus {
 	transform: scale(1.05);
 	box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
 }
@@ -223,42 +168,34 @@ Projects
 	font-family: 'Bitter', serif;
 }
 
-@media (min-width: 550px) {
-
-/*	.post-title {
-		line-height: 1em;
-		font-weight: bold;
-		font-size: 1.5rem;
-		margin: 0 0 .25rem .75rem;
-	}
-
-	.post-tools {
-		font-style: oblique;
-		line-height: 1.1em;
-		font-size: 1.25rem;
-		margin: 0 0 0 .75rem;
-	}*/
-	
-}
-
 /****
-Footer
+Colors
 ****/
 
-footer {
-	text-align: center;
-	color: #555;
-	font-size: small;
-	margin-top: 2rem;
-	display: block;
-	display: none;
+a {
+	color: #333; 
 }
 
-@media (min-width: 550px) {
-
-	.back-to-top {
-		display: none;
-	}
-
+.nav-link:focus > .nav-item,
+.nav-link:hover > .nav-item {
+	color: #777;
 }
 
+
+.active-link .nav-text {
+	color: #fff; // Color of the currently selected link
+}
+
+.nav-wrapper {
+	background-color: #6ed3cf; // Color of main nav bar
+}
+
+.nav-item {
+	background-color: #6ed3cf; // should be same as above
+}
+
+.info {
+	/*background-color: #9068be; // Color of banner on projects*/
+	/* colored based on post, don't uncomment this unless
+	 you want all the info banners to be the same color*/
+}

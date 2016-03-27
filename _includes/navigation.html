@@ -1,18 +1,42 @@
 <h1 class="title row">Camden Bickel</h1>
 <div class="row">
 	{% if page.active == "projects" %}
-        <div class="nav-item active-link four columns"><a href="{{ site.baseurl }}">Projects</a></div>
+        <a href="{{ site.baseurl }}" class="nav-link one-third column">
+        	<div class="nav-item active-link ">
+        		<span class="nav-text">Projects</span>
+        	</div>
+    	</a>
     {% else %}
-        <div class="nav-item four columns"><a href="{{ site.baseurl }}">Projects</a></div>
+        <a href="{{ site.baseurl }}" class="nav-link one-third column">
+       		<div class="nav-item">
+        		<span class="nav-text">Projects</span>
+        	</div>
+        </a>
     {% endif %}
     {% if page.active == "about" %}
-        <div class="nav-item active-link four columns"><a href="{{ site.baseurl }}about/">About</a></div>
+        <a href="{{ site.baseurl }}about/" class="nav-link one-third column">
+        	<div class="nav-item active-link">
+        		<span class="nav-text">About</span>
+        	</div>
+        </a>
     {% else %}
-        <div class="nav-item four columns"><a href="{{ site.baseurl }}about">About</a></div>
+        <a href="{{ site.baseurl }}about/" class="nav-link one-third column">
+        	<div class="nav-item">
+        		<span class="nav-text">About</span>
+        	</div>
+        </a>
     {% endif %}   
     {% if page.active == "contact" %}
-        <div class="nav-item active-link four columns"><a href="{{ site.baseurl }}contact/">Contact</a></div>
+        <a href="{{ site.baseurl }}contact/" class="nav-link one-third column">
+        	<div class="nav-item active-link">
+        		<span class="nav-text">Contact</span>
+        	</div>
+        </a>
     {% else %}
-        <div class="nav-item four columns"><a href="{{ site.baseurl }}contact">Contact</a></div>
+        <a href="{{ site.baseurl }}contact/" class="nav-link one-third column">
+        	<div class="nav-item">
+        		<span class="nav-text">Contact</span>
+        	</div>
+        </a>
     {% endif %}    	
 </div>
