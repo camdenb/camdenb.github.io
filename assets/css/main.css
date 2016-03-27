@@ -49,7 +49,7 @@ About Me
 }
 
 .about-header {
-	font-size: 7vh;
+	font-size: 4rem;
 	text-align: center;
 }
 
@@ -67,7 +67,7 @@ Navigation
 	margin-bottom: 0;
 	display: inline-block;
 	font-weight: bold;
-	font-size: 6rem;
+	font-size: 7rem;
 	margin-top: 4rem;
 	text-align: center;
 	width: 100%;
