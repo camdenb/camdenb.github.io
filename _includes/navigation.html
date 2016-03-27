@@ -1,18 +1,5 @@
 <h1 class="title row">Camden Bickel</h1>
 <div class="row">
-	{% if page.active == "projects" %}
-        <a href="{{ site.baseurl }}" class="nav-link one-third column">
-        	<div class="nav-item active-link ">
-        		<span class="nav-text">Projects</span>
-        	</div>
-    	</a>
-    {% else %}
-        <a href="{{ site.baseurl }}" class="nav-link one-third column">
-       		<div class="nav-item">
-        		<span class="nav-text">Projects</span>
-        	</div>
-        </a>
-    {% endif %}
     {% if page.active == "about" %}
         <a href="{{ site.baseurl }}about/" class="nav-link one-third column">
         	<div class="nav-item active-link">
@@ -26,6 +13,19 @@
         	</div>
         </a>
     {% endif %}   
+    {% if page.active == "projects" %}
+        <a href="{{ site.baseurl }}" class="nav-link one-third column">
+        	<div class="nav-item active-link ">
+        		<span class="nav-text">Projects</span>
+        	</div>
+    	</a>
+    {% else %}
+        <a href="{{ site.baseurl }}" class="nav-link one-third column">
+       		<div class="nav-item">
+        		<span class="nav-text">Projects</span>
+        	</div>
+        </a>
+    {% endif %}
     {% if page.active == "contact" %}
         <a href="{{ site.baseurl }}contact/" class="nav-link one-third column">
         	<div class="nav-item active-link">

@@ -78,8 +78,7 @@ Navigation
 	text-transform: uppercase;
 	font-weight: bolder;
 	text-align: center;
-	margin-bottom: 1rem;
-	margin-top: 1rem;	
+	margin: 1rem 0;
 	height: inherit;
 	padding: 2rem 0;
 	position: relative;
@@ -198,4 +197,54 @@ a {
 	/*background-color: #9068be; // Color of banner on projects*/
 	/* colored based on post, don't uncomment this unless
 	 you want all the info banners to be the same color*/
+}
+
+/****
+Mobile CSS
+****/
+
+@media (max-width: 750px) {
+
+	.post-title {
+		font-size: 2rem;
+	}
+
+}
+
+@media (max-width: 500px) {
+
+	.post-title {
+		font-size: 2.5rem;
+	}
+
+}
+
+
+@media (max-width: 600px) {
+
+	.title {
+		font-size: 3rem;
+		margin-top: 1rem;
+	}
+
+	.nav-item {
+		margin-top: 0;
+		margin-bottom: 1rem;
+		padding: 0.7rem;
+		font-size: 1.5rem;
+	}
+
+	.item {
+		margin-bottom: 2rem;
+	}
+
+	.nav-wrapper {
+		height: auto;
+		margin-bottom: 3rem;
+	}
+
+	.portfolio {
+		margin: 0 auto;
+	}
+
 }
