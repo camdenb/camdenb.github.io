@@ -149,6 +149,10 @@ Projects
 	opacity: 0;
 }
 
+.touch .info {
+	opacity: 1;
+}
+
 .post-title {
 	line-height: 1em;
 	font-weight: bold;

@@ -3,6 +3,10 @@ layout: default
 active: projects
 ---
 
+<script>
+    document.documentElement.className += 
+    (("ontouchstart" in document.documentElement) ? ' touch' : ' no-touch');
+</script>
 <div class="nav-wrapper">
 	<div class="container">
 		{% include navigation.html %}
