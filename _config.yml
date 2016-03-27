@@ -4,11 +4,6 @@ meta_description: "camdenbickel.com"
 
 aboutPage: true
 
-markdown: redcarpet
-redcarpet:
-    extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
-highlighter: pygments
-
 
 paginate: 20
 baseurl: /
