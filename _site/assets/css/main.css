@@ -45,6 +45,12 @@ About Me
 	text-align: justify;
 }
 
+.contact-text {
+	margin-top: 7rem;
+	font-size: 2vh;
+	text-align: center;
+}
+
 .image-of-me {
 	/*width: 100%;*/
 	/*margin: 4rem auto;*/
@@ -55,6 +61,7 @@ About Me
 
 .about-header {
 	font-size: 7vh;
+	text-align: center;
 }
 
 /****
