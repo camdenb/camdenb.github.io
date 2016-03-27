@@ -14,9 +14,10 @@ body {
 
 a {
 	text-decoration: none;
+	border-bottom: dotted;
 }
 
-.nav-item > a, .info-wrapper-link {
+.nav-link, .info-wrapper-link {
 	border-bottom: none;
 }
 
