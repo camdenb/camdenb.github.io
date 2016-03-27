@@ -4,6 +4,7 @@ body {
 	background-color: #EFEFEF;
 	overflow-y: scroll;
 	background-image: url(../images/fabric.png);
+	margin: 0;
 }
 
 a {
@@ -51,48 +52,40 @@ Navigation
 ****/
 
 .main-nav {
-	text-align: center;
+	height: inherit;
+}
+
+.nav-wrapper {
+	background-color: #f5ba32;
+	height: 20rem;
+}
+
+.inner-nav-wrapper {
+	height: inherit;
 }
 
 .title {
 	margin-bottom: 0;
 	display: inline-block;
 	font-weight: bold;
-	font-size: 2rem;
-	font-size: 10vw;
-}
-
-.nav-links {
-	list-style-type: none;
-	display: inline-block;
-	margin-bottom: 0;
+	font-size: 4.5rem;
+	font-size: 4vw;
+	margin-top: 5rem;
 }
 
 .nav-item {
-	display: inline-block;
-	font-size: 1.25rem;
-	font-size: 5vw;
-}
-
-.nav-links li {
-	margin-right: 2rem;
-}
-
-.nav-item:last-child {
-	margin-right: 0;
-}
-
-hr {
-	margin: 0;
-}
-
-.portfolio {
-	margin: 3rem 0;
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 15rem;
+	padding-bottom: 0;
 }
 
 @media (min-width: 550px) {
 
-	.main-nav {
+	/*.main-nav {
 		text-align: left;
 	}
 
@@ -101,40 +94,13 @@ hr {
 		margin-right: 2rem;
 	}
 
-	.nav-links {
-		margin-left: 0.75rem;
-	}
-
 	.nav-item {
 		display: inline-block;
 		font-size: 2rem;
-		margin-right: 1.5rem;
-	}
+	}*/
 	
 }
 
-@media (min-width: 960px) {
-
-	.title {
-		display: inline;
-		font-size: 6rem;
-		margin-right: 5rem;
-	}
-
-	.nav-item {
-		margin-right: 3rem;
-	}
-	
-	.nav-links {
-		display: inline;
-		margin-left: 0;
-	}
-
-	.portfolio {
-		margin: 5rem 0;
-	}
-
-}
 
 /* credit: http://tympanus.net/codrops/2013/08/06/creative-link-effects/ */
 /* Effect 3: bottom line slides/fades in */
@@ -174,19 +140,55 @@ hr {
 Projects
 ****/
 
-.item {
-	margin-bottom: 4rem;
-	text-align: left;
+.portfolio-container {
+
 }
 
-.item-img {
-	width: 100%;
-	box-shadow: 1px 1px 15px rgba(0,0,0,0.1);
+.portfolio {
+	margin: 3.5rem 0;
+}
+
+.item {
+	margin-bottom: 0rem;
+	height: 250px;
+	background: 50% 50% no-repeat;
+	display: table;
+	-webkit-transition: all 350ms ease-out;
+    -moz-transition: all 350ms ease-out;
+    -o-transition: all 350ms ease-out;
+    transition: all 350ms ease-out;
+}
+
+
+.info-wrapper-link {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.info-wrapper-link:hover > .info {
+	transform: scale(1.03);
+	opacity: 1;
+}
+
+.item:hover {
+	transform: scale(1.05);
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
 }
 
 .info {
-	width: 90%;
-	color: #333;
+	-webkit-transition: all 350ms ease-out;
+    -moz-transition: all 350ms ease-out;
+    -o-transition: all 350ms ease-out;
+    transition: all 350ms ease-out;
+	color: #fff;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	background-color: #16a085;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.25);
+	padding: 2rem 0;
+	transform: scale(1.03);
+	opacity: 0;
 }
 
 .post-title {
@@ -208,11 +210,6 @@ Projects
 }
 
 @media (min-width: 550px) {
-
-	.item {
-		margin-bottom: 0;
-		text-align: left;
-	}
 
 	.post-title {
 		line-height: 1em;

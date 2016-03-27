@@ -1,7 +1,8 @@
-<div class="one-third column item">
-	<a target="_blank" href={{ post.link }}><img src="{{ site.baseurl }}assets/images/{{ post.image }}" alt="{{ post.title }}" class="item-img"></a>
-	<div class="info">
-		<a target="_blank" href={{ post.link }}><p class='post-title serif-font'>{{ post.title }}</p></a>
-		<p class='post-tools serif-font'>{{ post.tools }}</p>
-	</div>
+<div class="one-half column item" style="background-image:url({{ site.baseurl }}assets/images/{{ post.image }})">
+	<a target="_blank" href="{{ post.link }}" class="info-wrapper-link">
+		<div class="info">
+			<p class='post-title serif-font'>{{ post.title }}</p>
+			<p class='post-tools serif-font'>{{ post.tools }}</p>
+		</div>
+	</a>
 </div>

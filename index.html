@@ -3,10 +3,16 @@ layout: default
 active: projects
 ---
 
-<div class="container">
+<div class="nav-wrapper">
+	<div class="container main-nav">
 		{% include navigation.html %}
-		<hr>
-		{% include portfolio-list.html %}
 	</div>
-	<hr>
-	{% include footer.html %}
+</div>
+<div class="container portfolio-container">
+	{% include portfolio-list.html %}
+</div>
+<div class="footer-wrapper">
+	<div class="container">
+		{% include footer.html %}
+	</div>
+</div>
