@@ -1,8 +1,23 @@
 
-<div class='contact row'>
-	<p class='contact-text'>
-		Stay tuned, I'll be putting up my contact info and resume here soon!
-	</p>
+<div class='contact'>
+	<h2 class='contact-title'>Say hi!</h2>
+	<form class='twelve columns contact-form' action="//flipmail.co/api/Pn0hdilkKjv80XDT6A3o" method="post">
+		<div class="">
+			<input type="text" name="name" class="six columns" placeholder="Name">
+			<input type="email" name="email" class="six columns" placeholder="your-email@example.com">
+			<input type="hidden" name="_valid[email]" value="valid_email">
+			<input type="hidden" name="_replyto" value="%email">
+			<input type="text" name="_honey" value="" style="display:none">
+		</div>
+		<div class="">
+			<textarea name="message" rows="10" class="twelve columns message" placeholder="Dear Camden,&#10;&#10;I think you're the bee's knees.&#10;&#10;Love,&#10;Camden"></textarea>
+		</div>
+		<div class="button-wrapper">
+			<button type="submit" class="send-email">Send!</button>
+			<input type="hidden" name="_after" value="http://www.{{ site.url }}/thanks">
+		</div>
+
+	</form>
 </div>
 
 

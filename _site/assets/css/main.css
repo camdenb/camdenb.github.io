@@ -21,6 +21,20 @@ a {
 	border-bottom: none;
 }
 
+/****
+Thanks
+****/
+
+.thanks {
+	margin-top: 5rem;
+	font-size: 1.75rem;
+	text-align: center;
+}
+
+.thanks-img {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
 
 /****
 About Me
@@ -49,10 +63,90 @@ About Me
 	width: 100%;
 }
 
-.about-header {
+h2 {
 	font-size: 4rem;
 	text-align: center;
 }
+
+/****
+Contact
+****/
+
+.contact {
+	margin-top: 5rem;
+	max-width: 50rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contact-title {
+	text-align: center;
+	margin-bottom: 4rem;
+}
+
+.message {
+	height: auto;
+}
+
+input, button {
+	font-family: 'Open Sans';
+}
+
+input, textarea {
+	border: none;
+	border-radius: 0;
+	padding: 2rem;
+	-webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+}
+
+textarea {
+	resize: none;
+}
+
+input:focus, textarea:focus,
+input:hover, textarea:hover {
+	outline: none;
+	/*background-color: #fff;*/
+	transform: scale(1.02);
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+}
+
+.button-wrapper {
+	height: auto;
+	text-align: center;
+}
+
+.send-email {
+	margin-top: 2rem;
+}
+
+button {
+	-webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+	transform: scale(1);
+	cursor: pointer;
+	border-radius: 0;
+	padding: 2rem 2rem;
+	background-color: #FFCC80;
+	text-decoration: none;
+	border: none;
+	font-size: 1em;
+	width: 100%;
+}
+
+button:hover,
+button:focus {
+	transform: scale(1.03);
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+}
+
+
+
 
 /****
 Navigation
@@ -84,10 +178,10 @@ Navigation
 	padding: 2rem 0;
 	position: relative;
 	top: 0.95rem;
-	-moz-transition: all .25s ease-in;
-    -o-transition: all .25s ease-in;
-    -webkit-transition: all .25s ease-in;
-    transition: all .25s ease-in;
+	-moz-transition: all .15s ease-in;
+    -o-transition: all .15s ease-in;
+    -webkit-transition: all .15s ease-in;
+    transition: all .15s ease-in;
 }
 
 .nav-link:focus > .nav-item,
