@@ -1,13 +1,13 @@
 <h1 class="title row">Camden Bickel</h1>
 <div class="row">
     {% if page.active == "about" %}
-        <a href="{{ site.baseurl }}about/" class="nav-link one-third column">
+        <a href="{{ 'about' | relative_url }}" class="nav-link one-third column">
         	<div class="nav-item active-link">
         		<span class="nav-text">About</span>
         	</div>
         </a>
     {% else %}
-        <a href="{{ site.baseurl }}about/" class="nav-link one-third column">
+        <a href="{{ 'about' | relative_url }}" class="nav-link one-third column">
         	<div class="nav-item">
         		<span class="nav-text">About</span>
         	</div>
