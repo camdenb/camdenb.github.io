@@ -14,26 +14,26 @@
         </a>
     {% endif %}   
     {% if page.active == "projects" %}
-        <a href="{{ site.baseurl }}" class="nav-link one-third column">
+        <a href="{{ '' | relative_url }}" class="nav-link one-third column">
         	<div class="nav-item active-link ">
         		<span class="nav-text">Projects</span>
         	</div>
     	</a>
     {% else %}
-        <a href="{{ site.baseurl }}" class="nav-link one-third column">
+        <a href="{{ 'projects' | relative_url }}" class="nav-link one-third column">
        		<div class="nav-item">
         		<span class="nav-text">Projects</span>
         	</div>
         </a>
     {% endif %}
     {% if page.active == "contact" %}
-        <a href="{{ site.baseurl }}contact/" class="nav-link one-third column">
+        <a href="{{ 'contact' | relative_url }}" class="nav-link one-third column">
         	<div class="nav-item active-link">
         		<span class="nav-text">Contact</span>
         	</div>
         </a>
     {% else %}
-        <a href="{{ site.baseurl }}contact/" class="nav-link one-third column">
+        <a href="{{ 'contact' | relative_url }}" class="nav-link one-third column">
         	<div class="nav-item">
         		<span class="nav-text">Contact</span>
         	</div>
